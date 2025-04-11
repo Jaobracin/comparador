@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Preços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comparador de Preços</h1>
+        <table id="tabela-precos">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Loja A</th>
+                    <th>Loja B</th>
+                    <th>Loja C</th>
+                    <th>Mais Barato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Arroz</td>
+                    <td data-preco="5.99">R$ 5,99</td>
+                    <td data-preco="6.49">R$ 6,49</td>
+                    <td data-preco="6.29">R$ 6,29</td>
+                    <td class="resultado"></td>
+                </tr>
+                <tr>
+                    <td>Leite</td>
+                    <td data-preco="3.89">R$ 3,89</td>
+                    <td data-preco="3.59">R$ 3,59</td>
+                    <td data-preco="3.99">R$ 3,99</td>
+                    <td class="resultado"></td>
+                </tr>
+                <tr>
+                    <td>Sabão</td>
+                    <td data-preco="7.99">R$ 7,99</td>
+                    <td data-preco="7.49">R$ 7,49</td>
+                    <td data-preco="7.89">R$ 7,89</td>
+                    <td class="resultado"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
